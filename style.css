@@ -1,0 +1,90 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* .box {
+    background-image: url("https://images.unsplash.com/photo-1501493870936-9c2e41625521?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJlYXV0aWZ1bHxlbnwwfHwwfHx8MA%3D%3D");
+    width: 800px;
+    height: 400px;
+    background-color: blueviolet;
+    background-size: cover;
+    border-radius: 30px;
+    margin: 50px auto;
+    padding-top: 100px;
+}
+.text{
+    text-align: center;
+    color: white;
+
+} */
+
+.row1 {
+    
+    display: flex;
+    
+
+}
+
+.food-card {
+
+    width: 340px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    flex-grow: 1;
+    margin: 30px;
+    padding-bottom: 20px;
+}
+
+.img {
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.btn {
+    border: none;
+    background-color: tomato;
+    border-radius: 30px;
+    padding: 15px 25px;
+    font-weight: bold;
+
+}
+@media screen and (max-width: 767px){
+    .row1 {
+    
+        display: flex;
+        flex-wrap: wrap;
+        
+    
+    }
+    .btn {
+        border: none;
+        background-color: rgb(157, 236, 66);
+        color: rgb(0, 0, 0);
+        border-radius: 30px;
+        padding: 15px 25px;
+        font-weight: bold;
+    
+    }
+
+}
+@media screen and (max-width: 572px){
+    .row1 {
+    
+        display: flex;
+        flex-wrap: wrap;
+        
+    
+    }
+    .btn {
+        border: none;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border-radius: 30px;
+        padding: 15px 25px;
+        font-weight: bold;
+    
+    }
+
+}
